@@ -3,3 +3,4 @@
 __pycache__
 static/*
 !static/.gitkeep
+node_modules
