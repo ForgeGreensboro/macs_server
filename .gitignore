@@ -1,3 +1,5 @@
 .env
 .virtualenv
 __pycache__
+static/*
+!static/.gitkeep
