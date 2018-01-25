@@ -26,7 +26,7 @@ SECRET_KEY = '0oy84abk!08&!5!t^$+4#n2%4d^b+4yl36-&70(1lv#3wbj@j4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['forge-macs.test']
+ALLOWED_HOSTS = ['forge-macs.test', 'forge-macs.herokuapp.com']
 DATABASES = {}
 
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
