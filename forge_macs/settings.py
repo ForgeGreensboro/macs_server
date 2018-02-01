@@ -31,6 +31,8 @@ DATABASES = {}
 
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
+INTERNAL_IPS=['127.0.0.1']
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,6 +42,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'webpack_loader',
+    'debug_toolbar',
+    'safedelete',
+    'macs',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 ]
 
 ROOT_URLCONF = 'forge_macs.urls'
@@ -58,7 +65,9 @@ ROOT_URLCONF = 'forge_macs.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, "templates")
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

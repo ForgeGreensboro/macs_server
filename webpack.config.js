@@ -1,4 +1,5 @@
 var Encore = require('@symfony/webpack-encore');
+var BundleTracker = require('webpack-bundle-tracker');
 
 Encore
     .setOutputPath('build/')
@@ -10,6 +11,7 @@ Encore
     .cleanupOutputBeforeBuild()
     .enableBuildNotifications()
     .setManifestKeyPrefix('static/')
+    .addPlugin(new BundleTracker({filename: './webpack-stats.json'}))
 ;
 
 module.exports = Encore.getWebpackConfig();

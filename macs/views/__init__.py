@@ -1,0 +1,1 @@
+from macs.views.machines import MachineView
