@@ -26,12 +26,12 @@ SECRET_KEY = '0oy84abk!08&!5!t^$+4#n2%4d^b+4yl36-&70(1lv#3wbj@j4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['forge-macs.test', 'forge-macs.herokuapp.com']
+ALLOWED_HOSTS = ['forge-macs.test', 'forge-macs.herokuapp.com', '192.168.1.111']
 DATABASES = {}
 
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)
 
-INTERNAL_IPS=['127.0.0.1']
+INTERNAL_IPS=['127.0.0.1', '192.168.1.111']
 
 # Application definition
 
@@ -42,9 +42,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_extensions',
     'webpack_loader',
     'debug_toolbar',
     'safedelete',
+    'rest_framework',
     'macs',
 ]
 

@@ -171,6 +171,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "macs/views/api/__init__.py",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "macs/views/api/permission_view_set.py",
+			"settings":
+			{
+				"buffer_size": 312,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -257,17 +274,43 @@
 	},
 	"expanded_folders":
 	[
-		"/home/chris/projects/python/forge_macs"
+		"/home/chris/projects/python/forge_macs",
+		"/home/chris/projects/python/forge_macs/forge_macs",
+		"/home/chris/projects/python/forge_macs/macs",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer",
+		"/home/chris/projects/python/forge_macs/macs/migrations",
+		"/home/chris/projects/python/forge_macs/macs/models",
+		"/home/chris/projects/python/forge_macs/macs/serializers",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer",
+		"/home/chris/projects/python/forge_macs/macs/views",
+		"/home/chris/projects/python/forge_macs/macs/views/api",
+		"/home/chris/projects/python/forge_macs/templates",
+		"/home/chris/projects/python/forge_macs/templates/admin"
 	],
 	"file_history":
 	[
-		"/home/chris/projects/python/forge_macs/macs/models/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/permission.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/permission.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/member_serializer.py",
 		"/home/chris/projects/python/forge_macs/macs/models/member.py",
-		"/home/chris/projects/python/forge_macs/macs/models/location.py",
-		"/home/chris/projects/python/forge_macs/macs/apps.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/migrations/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/models/machine.py",
+		"/home/chris/projects/python/forge_macs/macs/models/forms/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/admin.py",
+		"/home/chris/projects/python/forge_macs/macs/models/forms/machine.py",
+		"/home/chris/projects/python/forge_macs/templates/admin/base_site.html",
 		"/home/chris/projects/python/forge_macs/templates/admin/base.html",
-		"/home/chris/projects/python/forge_macs/forge_macs/urls.py",
+		"/home/chris/projects/python/forge_macs/macs/models/location.py",
+		"/home/chris/projects/python/forge_macs/macs/models/member_permission.py",
+		"/home/chris/projects/python/forge_macs/macs/models/TimeStampedModel.py",
 		"/home/chris/projects/python/forge_macs/forge_macs/settings.py",
+		"/home/chris/projects/python/forge_macs/forge_macs.sublime-project",
+		"/home/chris/projects/python/forge_macs/macs/models/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/apps.py",
+		"/home/chris/projects/python/forge_macs/forge_macs/urls.py",
 		"/home/chris/projects/python/forge_macs/.gitignore",
 		"/home/chris/projects/python/forge_macs/assets/css/app.scss",
 		"/home/chris/projects/python/forge_macs/webpack.config.js",
@@ -373,22 +416,7 @@
 		"/home/chris/environment/sample_app/app/views/layouts/_header.html.erb",
 		"/home/chris/environment/sample_app/app/views/layouts/_footer.html.erb",
 		"/home/chris/environment/sample_app/Gemfile",
-		"/home/chris/environment/sample_app/app/assets/stylesheets/custom.scss",
-		"/home/chris/environment/sample_app/app/views/layouts/shim.html.rb",
-		"/home/chris/environment/sample_app/.gitignore",
-		"/home/chris/environment/sample_app/Guardfile",
-		"/home/chris/environment/sample_app/app/controllers/application_controller.rb",
-		"/home/chris/environment/sample_app/app/views/static_pages/about.html.erb",
-		"/home/chris/environment/sample_app/app/views/static_pages/contact.html.erb",
-		"/home/chris/environment/sample_app/app/views/static_pages/help.html.erb",
-		"/home/chris/environment/sample_app/README.md",
-		"/home/chris/environment/hello_app/app/controllers/application_controller.rb",
-		"/home/chris/environment/hello_app/Gemfile",
-		"/home/chris/environment/hello_app/config/routes.rb",
-		"/home/chris/.config/sublime-text-3/Packages/User/eigenclass.sublime-snippet",
-		"/home/chris/.config/sublime-text-3/Packages/User/Ruby.sublime-settings",
-		"/home/chris/projects/verilog/cpu_process/counter.v",
-		"/home/chris/projects/verilog/cpu_process/counter_tb.v"
+		"/home/chris/environment/sample_app/app/assets/stylesheets/custom.scss"
 	],
 	"find":
 	{
@@ -423,8 +451,80 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "macs/views/api/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "macs/views/api/permission_view_set.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

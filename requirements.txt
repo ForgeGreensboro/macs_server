@@ -1,11 +1,16 @@
 dj-database-url==0.4.2
 Django==2.0.1
 django-debug-toolbar==1.9.1
+django-extensions==1.9.9
 django-safedelete==0.4.5
 django-webpack-loader==0.5.0
+djangorestframework==3.7.7
+drf-nested-routers==0.90.0
 gunicorn==19.7.1
 psycopg2==2.7.3.2
 pytz==2017.3
 setproctitle==1.1.10
+six==1.11.0
 sqlparse==0.2.4
+typing==3.6.4
 whitenoise==3.3.1

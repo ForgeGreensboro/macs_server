@@ -1,0 +1,1 @@
+from macs.views.api.permission_view_set import PermissionViewSet

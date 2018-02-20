@@ -16,7 +16,7 @@ class MachinePermissionInline(admin.TabularInline):
 
 class MemberAdmin(admin.ModelAdmin):
     fieldsets = [
-    (None, {'fields': ['member_name']})]
+    (None, {'fields': ['member_name', 'member_id']})]
     inlines = [MachinePermissionInline]
 
 admin.site.register(Location)
