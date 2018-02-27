@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'safedelete',
     'rest_framework',
-    'macs',
+    'polymorphic',
+    'macs'
 ]
 
 MIDDLEWARE = [

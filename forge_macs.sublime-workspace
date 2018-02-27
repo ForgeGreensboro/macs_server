@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Meber",
+				"MemberSerializer\tclass"
+			],
+			[
+				"Member",
+				"MemberViewSet\tclass"
+			],
+			[
+				"Permi",
+				"PermissionViewSet\tclass"
+			],
+			[
 				"word_",
 				"word_separators\t(Preferences.sublime-settings)"
 			],
@@ -169,26 +181,6 @@
 			]
 		]
 	},
-	"buffers":
-	[
-		{
-			"file": "macs/views/api/__init__.py",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "macs/views/api/permission_view_set.py",
-			"settings":
-			{
-				"buffer_size": 312,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -272,45 +264,43 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/chris/projects/python/forge_macs",
-		"/home/chris/projects/python/forge_macs/forge_macs",
-		"/home/chris/projects/python/forge_macs/macs",
-		"/home/chris/projects/python/forge_macs/macs/data_transfer",
-		"/home/chris/projects/python/forge_macs/macs/migrations",
-		"/home/chris/projects/python/forge_macs/macs/models",
-		"/home/chris/projects/python/forge_macs/macs/serializers",
-		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer",
-		"/home/chris/projects/python/forge_macs/macs/views",
-		"/home/chris/projects/python/forge_macs/macs/views/api",
-		"/home/chris/projects/python/forge_macs/templates",
-		"/home/chris/projects/python/forge_macs/templates/admin"
-	],
 	"file_history":
 	[
+		"/home/chris/projects/python/forge_macs/macs/admin.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/member_serializer.py",
+		"/home/chris/projects/python/forge_macs/macs/views/members.py",
+		"/home/chris/projects/python/forge_macs/macs/views/machines.py",
+		"/home/chris/projects/python/forge_macs/macs/urls.py",
+		"/home/chris/projects/python/forge_macs/macs/models/member.py",
+		"/home/chris/projects/python/forge_macs/macs/models/TimeStampedModel.py",
+		"/home/chris/projects/python/forge_macs/forge_macs/urls.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api/permission_view_set.py",
+		"/home/chris/projects/python/forge_macs/macs/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api_root.py",
+		"/home/chris/projects/python/forge_macs/macs/views/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/machine_serializer.py",
+		"/home/chris/projects/python/forge_macs/requirements.txt",
+		"/home/chris/projects/python/forge_macs/templates/rest_framework/api.html",
+		"/home/chris/projects/python/forge_macs/forge_macs/settings.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/base_data_transfer.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/base_serializer.py",
 		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/permission.py",
 		"/home/chris/projects/python/forge_macs/macs/data_transfer/permission.py",
 		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/__init__.py",
-		"/home/chris/projects/python/forge_macs/macs/serializers/member_serializer.py",
-		"/home/chris/projects/python/forge_macs/macs/models/member.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api/__init__.py",
 		"/home/chris/projects/python/forge_macs/macs/data_transfer/__init__.py",
-		"/home/chris/projects/python/forge_macs/macs/serializers/__init__.py",
 		"/home/chris/projects/python/forge_macs/macs/migrations/data_transfer/__init__.py",
 		"/home/chris/projects/python/forge_macs/macs/models/machine.py",
 		"/home/chris/projects/python/forge_macs/macs/models/forms/__init__.py",
-		"/home/chris/projects/python/forge_macs/macs/admin.py",
 		"/home/chris/projects/python/forge_macs/macs/models/forms/machine.py",
 		"/home/chris/projects/python/forge_macs/templates/admin/base_site.html",
 		"/home/chris/projects/python/forge_macs/templates/admin/base.html",
 		"/home/chris/projects/python/forge_macs/macs/models/location.py",
 		"/home/chris/projects/python/forge_macs/macs/models/member_permission.py",
-		"/home/chris/projects/python/forge_macs/macs/models/TimeStampedModel.py",
-		"/home/chris/projects/python/forge_macs/forge_macs/settings.py",
 		"/home/chris/projects/python/forge_macs/forge_macs.sublime-project",
 		"/home/chris/projects/python/forge_macs/macs/models/__init__.py",
 		"/home/chris/projects/python/forge_macs/macs/apps.py",
-		"/home/chris/projects/python/forge_macs/forge_macs/urls.py",
 		"/home/chris/projects/python/forge_macs/.gitignore",
 		"/home/chris/projects/python/forge_macs/assets/css/app.scss",
 		"/home/chris/projects/python/forge_macs/webpack.config.js",
@@ -403,20 +393,7 @@
 		"/home/chris/environment/sample_app/config/routes.rb",
 		"/home/chris/environment/sample_app/app/controllers/users_controller.rb",
 		"/home/chris/environment/sample_app/test/controllers/users_controller_test.rb",
-		"/home/chris/environment/sample_app/test/controllers/users_controller_controller_test.rb",
-		"/home/chris/environment/sample_app/app/controllers/users_controller_controller.rb",
-		"/home/chris/environment/sample_app/app/views/users_controller/new.html.erb",
-		"/home/chris/environment/sample_app/test/helpers/application_helper_test.rb",
-		"/home/chris/environment/sample_app/app/helpers/application_helper.rb",
-		"/home/chris/environment/sample_app/app/views/layouts/application.html.erb",
-		"/home/chris/environment/sample_app/test/integration/site_layout_test.rb",
-		"/home/chris/environment/sample_app/test/test_helper.rb",
-		"/home/chris/environment/sample_app/test/controllers/static_pages_controller_test.rb",
-		"/home/chris/environment/sample_app/app/controllers/static_pages_controller.rb",
-		"/home/chris/environment/sample_app/app/views/layouts/_header.html.erb",
-		"/home/chris/environment/sample_app/app/views/layouts/_footer.html.erb",
-		"/home/chris/environment/sample_app/Gemfile",
-		"/home/chris/environment/sample_app/app/assets/stylesheets/custom.scss"
+		"/home/chris/environment/sample_app/test/controllers/users_controller_controller_test.rb"
 	],
 	"find":
 	{
@@ -448,86 +425,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 0,
-					"file": "macs/views/api/__init__.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "macs/views/api/permission_view_set.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 312,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								215,
-								215
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"open_with_edit": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 36.0
@@ -576,7 +473,6 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "Packages/User/Maven.sublime-build",
-	"project": "forge_macs.sublime-project",
 	"replace":
 	{
 		"height": 68.0
@@ -609,7 +505,6 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},

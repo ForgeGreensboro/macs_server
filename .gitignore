@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 .env
 .virtualenv
 __pycache__
 static/*
 !static/.gitkeep
 node_modules
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -107,4 +105,3 @@ ENV/
 
 # mypy
 .mypy_cache/
->>>>>>> 894e4cf64f6e6de6837f2144e13eefe6e30afd55
