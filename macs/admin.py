@@ -2,6 +2,7 @@ from django.contrib import admin
 
 
 from .models import Location, Machine, MemberPermission, Member
+from .models.log import InvalidRequest, MachineLock, MachineUnlock, Log
 from .models.forms import MachineForm
 
 
@@ -23,3 +24,6 @@ admin.site.register(Location)
 admin.site.register(Machine)
 admin.site.register(MemberPermission)
 admin.site.register(Member, MemberAdmin)
+admin.site.register(InvalidRequest)
+admin.site.register(MachineLock)
+admin.site.register(MachineUnlock)

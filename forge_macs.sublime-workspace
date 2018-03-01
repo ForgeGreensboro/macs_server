@@ -181,14 +181,42 @@
 			]
 		]
 	},
-	"build_system": "",
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 1234,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
 	],
-	"build_varint": "",
+	"build_varint": "Syntax Check",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 34.0,
 		"last_filter": "Package Control: ",
 		"selected_items":
 		[
@@ -245,7 +273,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 731.0
+		"width": 497.0
 	},
 	"console":
 	{
@@ -264,8 +292,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/chris/projects/python/web/django/macs_server"
+	],
 	"file_history":
 	[
+		"/home/chris/projects/python/web/django/macs_server/forge_macs.sublime-project",
 		"/home/chris/projects/python/forge_macs/macs/admin.py",
 		"/home/chris/projects/python/forge_macs/macs/serializers/member_serializer.py",
 		"/home/chris/projects/python/forge_macs/macs/views/members.py",
@@ -392,8 +425,7 @@
 		"/home/chris/environment/sample_app/app/views/static_pages/home.html.erb",
 		"/home/chris/environment/sample_app/config/routes.rb",
 		"/home/chris/environment/sample_app/app/controllers/users_controller.rb",
-		"/home/chris/environment/sample_app/test/controllers/users_controller_test.rb",
-		"/home/chris/environment/sample_app/test/controllers/users_controller_controller_test.rb"
+		"/home/chris/environment/sample_app/test/controllers/users_controller_test.rb"
 	],
 	"find":
 	{
@@ -425,6 +457,43 @@
 		"whole_word": false,
 		"wrap": true
 	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1234,
+								1234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
 	"incremental_find":
 	{
 		"height": 36.0
@@ -464,6 +533,10 @@
 	{
 		"height": 180.0
 	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -472,7 +545,8 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "Packages/User/Maven.sublime-build",
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "forge_macs.sublime-project",
 	"replace":
 	{
 		"height": 68.0
@@ -505,6 +579,7 @@
 		],
 		"width": 0.0
 	},
+	"selected_group": 0,
 	"settings":
 	{
 	},
