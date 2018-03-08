@@ -1,0 +1,57 @@
+{%extends 'application.html'%}
+
+{% block content %}
+	<h1>The Forge - Machine Status</h1>
+	<div class="container">
+		<div class="card-group">
+			<div class="card">
+				<div class="card-header">
+					<h2>Wood Shop</h2>
+				</div>
+				<div class="card-body">
+					Wood Shop Machines here.
+					<div class="container mx-auto">
+						<div class="row">
+							
+							<p class="fi flaticon-industrial-robot-32 mr-3" data-toggle="tooltip" data-placemnet="top" title="Planar"></p>
+							<p class="fi flaticon-industrial-robot-35 mr-3" data-toggle="tooltip" data-placemnet="top" title="Jointer"></p>
+							<div class="w100"></div>
+						</div>
+						<div class="row">
+							<p class="fi flaticon-industrial-robot-45" data-toggle="tooltip" data-placemnet="top" title="Tablesaw"></p>
+
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header">
+					<h2>Metal Shop</h2>
+				</div>
+				<div class="card-body">
+					Metal Shop Machines here.
+				</div>
+			</div>
+		</div>
+		<div class="card-group">
+			<div class="card">
+				<div class="card-header">
+					<h2>3D Lab</h2>
+				</div>
+				<div class="card-body">
+					3D printing Machines here.
+				</div>
+			</div>			
+			<div class="card">
+				<div class="card-header">
+					<h2>Laser Lab</h2>
+				</div>
+				<div class="card-body">
+					Laser Engraving Machines here.
+				</div>
+			</div>
+
+		</div>
+	</div>
+{% endblock %}

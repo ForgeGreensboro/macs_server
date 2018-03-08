@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>The Forge - MACS {% block title %}{% endblock %}</title>
-    <link rel="stylesheet" href="{% static 'app.css' %}">
+    <link rel="stylesheet" href="{% static 'build/app.css' %}">
 </head>
 <body>
+	{% block content %}
     <div class="container">
         <h1>Hello, World!</h1>
     </div>
+    {% endblock %}
 </body>
 </html>

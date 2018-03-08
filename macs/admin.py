@@ -20,10 +20,16 @@ class MemberAdmin(admin.ModelAdmin):
     (None, {'fields': ['member_name', 'member_id']})]
     inlines = [MachinePermissionInline]
 
+class MachineLockAdmin(admin.ModelAdmin):
+ 	list_display = ('machine.description', 'member.name', 'timestamp')
+
+class MachineUnlockAdmin(admin.ModelAdmin):
+ 	list_display = ('machine', 'member', 'timestamp')
+
 admin.site.register(Location)
 admin.site.register(Machine)
 admin.site.register(MemberPermission)
 admin.site.register(Member, MemberAdmin)
 admin.site.register(InvalidRequest)
-admin.site.register(MachineLock)
-admin.site.register(MachineUnlock)
+admin.site.register(MachineLock, MachineLockAdmin)
+admin.site.register(MachineUnlock, MachineUnlockAdmin)

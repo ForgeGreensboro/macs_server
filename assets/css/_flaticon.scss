@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:40
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-industrial-robot:before { content: "\f100"; }
+.flaticon-industrial-robot-1:before { content: "\f101"; }
+.flaticon-industrial-robot-10:before { content: "\f102"; }
+.flaticon-industrial-robot-11:before { content: "\f103"; }
+.flaticon-industrial-robot-12:before { content: "\f104"; }
+.flaticon-industrial-robot-13:before { content: "\f105"; }
+.flaticon-industrial-robot-14:before { content: "\f106"; }
+.flaticon-industrial-robot-15:before { content: "\f107"; }
+.flaticon-industrial-robot-16:before { content: "\f108"; }
+.flaticon-industrial-robot-17:before { content: "\f109"; }
+.flaticon-industrial-robot-18:before { content: "\f10a"; }
+.flaticon-industrial-robot-19:before { content: "\f10b"; }
+.flaticon-industrial-robot-2:before { content: "\f10c"; }
+.flaticon-industrial-robot-20:before { content: "\f10d"; }
+.flaticon-industrial-robot-21:before { content: "\f10e"; }
+.flaticon-industrial-robot-22:before { content: "\f10f"; }
+.flaticon-industrial-robot-23:before { content: "\f110"; }
+.flaticon-industrial-robot-24:before { content: "\f111"; }
+.flaticon-industrial-robot-25:before { content: "\f112"; }
+.flaticon-industrial-robot-26:before { content: "\f113"; }
+.flaticon-industrial-robot-27:before { content: "\f114"; }
+.flaticon-industrial-robot-28:before { content: "\f115"; }
+.flaticon-industrial-robot-29:before { content: "\f116"; }
+.flaticon-industrial-robot-3:before { content: "\f117"; }
+.flaticon-industrial-robot-30:before { content: "\f118"; }
+.flaticon-industrial-robot-31:before { content: "\f119"; }
+.flaticon-industrial-robot-32:before { content: "\f11a"; }
+.flaticon-industrial-robot-33:before { content: "\f11b"; }
+.flaticon-industrial-robot-34:before { content: "\f11c"; }
+.flaticon-industrial-robot-35:before { content: "\f11d"; }
+.flaticon-industrial-robot-36:before { content: "\f11e"; }
+.flaticon-industrial-robot-37:before { content: "\f11f"; }
+.flaticon-industrial-robot-38:before { content: "\f120"; }
+.flaticon-industrial-robot-39:before { content: "\f121"; }
+.flaticon-industrial-robot-4:before { content: "\f122"; }
+.flaticon-industrial-robot-40:before { content: "\f123"; }
+.flaticon-industrial-robot-41:before { content: "\f124"; }
+.flaticon-industrial-robot-42:before { content: "\f125"; }
+.flaticon-industrial-robot-43:before { content: "\f126"; }
+.flaticon-industrial-robot-44:before { content: "\f127"; }
+.flaticon-industrial-robot-45:before { content: "\f128"; }
+.flaticon-industrial-robot-46:before { content: "\f129"; }
+.flaticon-industrial-robot-47:before { content: "\f12a"; }
+.flaticon-industrial-robot-48:before { content: "\f12b"; }
+.flaticon-industrial-robot-49:before { content: "\f12c"; }
+.flaticon-industrial-robot-5:before { content: "\f12d"; }
+.flaticon-industrial-robot-6:before { content: "\f12e"; }
+.flaticon-industrial-robot-7:before { content: "\f12f"; }
+.flaticon-industrial-robot-8:before { content: "\f130"; }
+.flaticon-industrial-robot-9:before { content: "\f131"; }
+    
+    $font-Flaticon-industrial-robot: "\f100";
+    $font-Flaticon-industrial-robot-1: "\f101";
+    $font-Flaticon-industrial-robot-10: "\f102";
+    $font-Flaticon-industrial-robot-11: "\f103";
+    $font-Flaticon-industrial-robot-12: "\f104";
+    $font-Flaticon-industrial-robot-13: "\f105";
+    $font-Flaticon-industrial-robot-14: "\f106";
+    $font-Flaticon-industrial-robot-15: "\f107";
+    $font-Flaticon-industrial-robot-16: "\f108";
+    $font-Flaticon-industrial-robot-17: "\f109";
+    $font-Flaticon-industrial-robot-18: "\f10a";
+    $font-Flaticon-industrial-robot-19: "\f10b";
+    $font-Flaticon-industrial-robot-2: "\f10c";
+    $font-Flaticon-industrial-robot-20: "\f10d";
+    $font-Flaticon-industrial-robot-21: "\f10e";
+    $font-Flaticon-industrial-robot-22: "\f10f";
+    $font-Flaticon-industrial-robot-23: "\f110";
+    $font-Flaticon-industrial-robot-24: "\f111";
+    $font-Flaticon-industrial-robot-25: "\f112";
+    $font-Flaticon-industrial-robot-26: "\f113";
+    $font-Flaticon-industrial-robot-27: "\f114";
+    $font-Flaticon-industrial-robot-28: "\f115";
+    $font-Flaticon-industrial-robot-29: "\f116";
+    $font-Flaticon-industrial-robot-3: "\f117";
+    $font-Flaticon-industrial-robot-30: "\f118";
+    $font-Flaticon-industrial-robot-31: "\f119";
+    $font-Flaticon-industrial-robot-32: "\f11a";
+    $font-Flaticon-industrial-robot-33: "\f11b";
+    $font-Flaticon-industrial-robot-34: "\f11c";
+    $font-Flaticon-industrial-robot-35: "\f11d";
+    $font-Flaticon-industrial-robot-36: "\f11e";
+    $font-Flaticon-industrial-robot-37: "\f11f";
+    $font-Flaticon-industrial-robot-38: "\f120";
+    $font-Flaticon-industrial-robot-39: "\f121";
+    $font-Flaticon-industrial-robot-4: "\f122";
+    $font-Flaticon-industrial-robot-40: "\f123";
+    $font-Flaticon-industrial-robot-41: "\f124";
+    $font-Flaticon-industrial-robot-42: "\f125";
+    $font-Flaticon-industrial-robot-43: "\f126";
+    $font-Flaticon-industrial-robot-44: "\f127";
+    $font-Flaticon-industrial-robot-45: "\f128";
+    $font-Flaticon-industrial-robot-46: "\f129";
+    $font-Flaticon-industrial-robot-47: "\f12a";
+    $font-Flaticon-industrial-robot-48: "\f12b";
+    $font-Flaticon-industrial-robot-49: "\f12c";
+    $font-Flaticon-industrial-robot-5: "\f12d";
+    $font-Flaticon-industrial-robot-6: "\f12e";
+    $font-Flaticon-industrial-robot-7: "\f12f";
+    $font-Flaticon-industrial-robot-8: "\f130";
+    $font-Flaticon-industrial-robot-9: "\f131";
