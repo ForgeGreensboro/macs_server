@@ -1,19 +1,27 @@
 {
+  "name": "forge-gso-macs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "encore dev"
+  },
   "devDependencies": {
+    "@angular/cli": "^1.7.3",
     "@symfony/webpack-encore": "^0.19.0",
     "bootstrap": "^4.0.0",
-    "fork-ts-checker-webpack-plugin": "^0.4.0",
     "jquery": "^3.3.1",
     "node-sass": "^4.7.2",
     "popper.js": "^1.12.9",
     "sass-loader": "^6.0.7",
     "source-map": "^0.7.2",
-    "ts-loader": "^4.0.1",
-    "tslint": "^5.9.1",
-    "typescript": "^2.7.2",
     "webpack-notifier": "^1.5.1"
   },
   "dependencies": {
-    "@angular/cli": "^1.7.2"
+    "prop-types": "^15.6.1"
+  },
+  "engines": {
+    "node": "9.6.0",
+    "npm": "5.7.1",
+    "yarn": "1.5.1"
   }
 }

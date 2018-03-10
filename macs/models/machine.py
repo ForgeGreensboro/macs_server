@@ -7,7 +7,7 @@ from macs.models.member import Member
 class Machine(TimeStampedModel):
     description = models.TextField()
     address = models.TextField()
-    location = models.ForeignKey(Location, on_delete=models.CASCADE)
+    location = models.ForeignKey(Location, on_delete=models.CASCADE, related_name='machines')
     members = models.ManyToManyField(Member, through='MemberPermission',
         related_name='machines')
 

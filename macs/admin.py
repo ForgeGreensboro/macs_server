@@ -21,7 +21,7 @@ class MemberAdmin(admin.ModelAdmin):
     inlines = [MachinePermissionInline]
 
 class MachineLockAdmin(admin.ModelAdmin):
- 	list_display = ('machine.description', 'member.name', 'timestamp')
+ 	list_display = ('machine', 'timestamp')
 
 class MachineUnlockAdmin(admin.ModelAdmin):
  	list_display = ('machine', 'member', 'timestamp')

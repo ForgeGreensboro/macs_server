@@ -12,14 +12,14 @@ DJANGO_WSGI_MODULE=forge_macs.wsgi
 echo "Start $NAME as `whoami`"
 
 cd $DJANGODIR
-source ./macs-venv/bin/activate
+source ./venv/bin/activate
 export DJANGO_SETTINGS_MODULE=$DJANGO_SETTINGS_MODULE
 export PYTHON_PATH=$DJANGODIR:$PYTHON_PATH
 
 RUNDIR=$(dirname $SOCKFILE)
 test -d $RUNDIR || mkdir -p $RUNDIR
 
-exec ./macs-venv/bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
+exec ./venv/bin/gunicorn ${DJANGO_WSGI_MODULE}:application \
     --name $NAME \
     --workers $NUM_WORKERS \
     --user=$USER --group=$GROUP \

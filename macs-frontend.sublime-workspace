@@ -1,0 +1,585 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"forwards_unlock\tfunction"
+			],
+			[
+				"forw",
+				"forwards_lock\tfunction"
+			],
+			[
+				"Poly",
+				"PolymorphicChildModelAdmin\tclass"
+			],
+			[
+				"Pol",
+				"PolymorphicChildModelAdmin\tclass"
+			],
+			[
+				"Polymo",
+				"PolymorphicChildModelAdmin\tclass"
+			],
+			[
+				"ad",
+				"address\tstatement"
+			],
+			[
+				"inv",
+				"InvalidRequest\tclass"
+			],
+			[
+				"Meber",
+				"MemberSerializer\tclass"
+			],
+			[
+				"Member",
+				"MemberViewSet\tclass"
+			],
+			[
+				"Permi",
+				"PermissionViewSet\tclass"
+			],
+			[
+				"word_",
+				"word_separators\t(Preferences.sublime-settings)"
+			],
+			[
+				"ensure",
+				"ensure_newline_at_eof_on_save\t(Preferences.sublime-settings)"
+			],
+			[
+				"copy",
+				"copy_with_empty_selection\t(Preferences.sublime-settings)"
+			],
+			[
+				"passw",
+				"password_confirmation"
+			],
+			[
+				"pass",
+				"password_confirmation"
+			],
+			[
+				"Ada",
+				"Adapters\tmodule"
+			],
+			[
+				"train_summary",
+				"train_summary_op\tstatement"
+			],
+			[
+				"global_var",
+				"global_variables_initializer\tfunction"
+			],
+			[
+				"tra",
+				"trainable\tparam"
+			],
+			[
+				"max_docum",
+				"max_document_length\tstatement"
+			],
+			[
+				"DE",
+				"DEFINE_boolean\tfunction"
+			],
+			[
+				"DEF",
+				"DEFINE_boolean\tfunction"
+			],
+			[
+				"Def",
+				"DEFINE_integer\tfunction"
+			],
+			[
+				"De",
+				"DEFINE_integer\tfunction"
+			],
+			[
+				"def",
+				"DEFINE_string\tfunction"
+			],
+			[
+				"negat",
+				"negative_data_File\tparam"
+			],
+			[
+				"positive",
+				"positive_examples\tstatement"
+			],
+			[
+				"train",
+				"trainingSet\tstatement"
+			],
+			[
+				"rest",
+				"result\tstatement"
+			],
+			[
+				"calculate",
+				"calculateClassProbabilities\tfunction"
+			],
+			[
+				"split",
+				"splitRatio\tparam"
+			],
+			[
+				"probab",
+				"probabilityOfWordInCategory"
+			],
+			[
+				"prob",
+				"probabilityForCategory"
+			],
+			[
+				"pro",
+				"probabilityOfCategory"
+			],
+			[
+				"all",
+				"allInCategory"
+			],
+			[
+				"allIn",
+				"allInCategoryContainingWord"
+			],
+			[
+				"check",
+				"checkLettersNumbers"
+			],
+			[
+				"chec",
+				"checkNum"
+			],
+			[
+				"nucle",
+				"nucleotides"
+			],
+			[
+				"init",
+				"__init__"
+			],
+			[
+				"not",
+				"NotImplementedError\tclass"
+			],
+			[
+				"NotImp",
+				"NotImplementedError\tclass"
+			],
+			[
+				"SDL",
+				"SDLHello"
+			],
+			[
+				"SDLHELL",
+				"SDLHelloConfig"
+			],
+			[
+				"SDLH",
+				"SDLHello_VERSION_MAJOR"
+			],
+			[
+				"_Velo",
+				"_velocity"
+			],
+			[
+				"_gameOBjects",
+				"_gameObjects"
+			],
+			[
+				"PlayerPAdd",
+				"PlayerPaddle"
+			],
+			[
+				"_",
+				"_OBJ"
+			],
+			[
+				"mo",
+				"modifiedSourceInfo"
+			],
+			[
+				"SourceIn",
+				"SourceInfo"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 34.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"ANF",
+				"ANF: New File"
+			],
+			[
+				"Package Control: c",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/chris/projects/javascript/macs/macs-frontend"
+	],
+	"file_history":
+	[
+		"/home/chris/projects/python/web/django/macs_server/webpack.config.js",
+		"/home/chris/projects/python/web/django/macs_server/forge_macs/settings.py",
+		"/home/chris/projects/python/web/django/macs_server/templates/application.html",
+		"/home/chris/projects/python/web/django/macs_server/assets/js/app.js",
+		"/home/chris/projects/python/web/django/macs_server/assets/css/app.scss",
+		"/home/chris/projects/python/web/django/macs_server/forge_macs/urls.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/views/home_view.py",
+		"/home/chris/projects/python/web/django/macs_server/templates/macs/machinelock_list.html",
+		"/home/chris/projects/python/web/django/macs_server/templates/index.html",
+		"/home/chris/projects/python/web/django/macs_server/forge_macs/wsgi.py",
+		"/home/chris/projects/python/web/django/macs_server/Procfile",
+		"/home/chris/projects/python/web/django/macs_server/package.json",
+		"/home/chris/projects/python/web/django/macs_server/assets/css/_flaticon.scss",
+		"/home/chris/projects/python/web/django/macs_server/assets/css/_machine_icons.scss",
+		"/home/chris/projects/python/web/django/macs_server/yarn.lock",
+		"/home/chris/projects/python/web/django/macs_server/tsconfig.json",
+		"/home/chris/projects/python/web/django/macs_server/macs/urls_views.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/views/__init__.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/urls_api.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/views/api/__init__.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/admin.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/log/base.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/member.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/machine.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/log/machine_lock.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/log/machine_unlock.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/log/invalid_request.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/migrations/0001_initial.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/migrations/0011_auto_20180302_1548.py",
+		"/home/chris/projects/python/web/django/macs_server/macs/models/member_permission.py",
+		"/home/chris/projects/python/web/django/macs_server/.env",
+		"/home/chris/projects/python/web/django/macs_server/bin/gunicorn_start.bash",
+		"/home/chris/projects/python/web/django/macs_server/requirements.txt",
+		"/home/chris/projects/python/web/django/macs_server/.gitignore",
+		"/home/chris/projects/python/web/django/macs_server/forge_macs.sublime-project",
+		"/home/chris/projects/python/forge_macs/macs/admin.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/member_serializer.py",
+		"/home/chris/projects/python/forge_macs/macs/views/members.py",
+		"/home/chris/projects/python/forge_macs/macs/views/machines.py",
+		"/home/chris/projects/python/forge_macs/macs/urls.py",
+		"/home/chris/projects/python/forge_macs/macs/models/member.py",
+		"/home/chris/projects/python/forge_macs/macs/models/TimeStampedModel.py",
+		"/home/chris/projects/python/forge_macs/forge_macs/urls.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api/permission_view_set.py",
+		"/home/chris/projects/python/forge_macs/macs/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api_root.py",
+		"/home/chris/projects/python/forge_macs/macs/views/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/machine_serializer.py",
+		"/home/chris/projects/python/forge_macs/requirements.txt",
+		"/home/chris/projects/python/forge_macs/templates/rest_framework/api.html",
+		"/home/chris/projects/python/forge_macs/forge_macs/settings.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/base_data_transfer.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/base_serializer.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/permission.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/permission.py",
+		"/home/chris/projects/python/forge_macs/macs/serializers/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/views/api/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/migrations/data_transfer/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/models/machine.py",
+		"/home/chris/projects/python/forge_macs/macs/models/forms/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/models/forms/machine.py",
+		"/home/chris/projects/python/forge_macs/templates/admin/base_site.html",
+		"/home/chris/projects/python/forge_macs/templates/admin/base.html",
+		"/home/chris/projects/python/forge_macs/macs/models/location.py",
+		"/home/chris/projects/python/forge_macs/macs/models/member_permission.py",
+		"/home/chris/projects/python/forge_macs/forge_macs.sublime-project",
+		"/home/chris/projects/python/forge_macs/macs/models/__init__.py",
+		"/home/chris/projects/python/forge_macs/macs/apps.py",
+		"/home/chris/projects/python/forge_macs/.gitignore",
+		"/home/chris/projects/python/forge_macs/assets/css/app.scss",
+		"/home/chris/projects/python/forge_macs/webpack.config.js",
+		"/home/chris/projects/python/forge_macs/assets/css/_custom.scss",
+		"/home/chris/projects/python/forge_macs/assets/js/app.js",
+		"/home/chris/projects/python/forge_macs/forge_macs/wsgi.py",
+		"/home/chris/projects/python/forge_macs/bin/gunicorn_start.bash",
+		"/home/chris/projects/python/forge_macs/.env",
+		"/home/chris/projects/python/forge_macs/Procfile",
+		"/home/chris/PycharmProjects/forge_macs/config/environment.js",
+		"/home/chris/PycharmProjects/forge_macs/app/templates/application.hbs",
+		"/home/chris/PycharmProjects/forge_macs/app/templates/login.hbs",
+		"/home/chris/PycharmProjects/forge_macs/app/routes/application.js",
+		"/home/chris/PycharmProjects/forge_macs/app/adapters/application.js",
+		"/home/chris/PycharmProjects/forge_macs/macs/views/machine_view_set.py",
+		"/home/chris/PycharmProjects/forge_macs/app/authorizers/drf-token-authorizer.js",
+		"/home/chris/PycharmProjects/forge_macs/app/controllers/application.js",
+		"/home/chris/PycharmProjects/forge_macs/app/controllers/login.js",
+		"/home/chris/PycharmProjects/forge_macs/app/authenticators/drf-token-authenticator.js",
+		"/home/chris/PycharmProjects/forge_macs/forge_macs/urls.py",
+		"/home/chris/PycharmProjects/forge_macs/forge_macs/settings.py",
+		"/home/chris/PycharmProjects/forge_macs/requirements.txt",
+		"/home/chris/PycharmProjects/forge_macs/macs/models/machine.py",
+		"/home/chris/PycharmProjects/forge_macs/app/templates/machines/-form.hbs",
+		"/home/chris/PycharmProjects/forge_macs/macs/serializers/__init__.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/serializers/MachineSerializer.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/views/__init__.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/models/__init__.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/models/Machine.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/serializers",
+		"/home/chris/PycharmProjects/forge_macs/macs/views/MachineViewSet.py",
+		"/home/chris/PycharmProjects/forge_macs/macs/templates/home.html",
+		"/home/chris/PycharmProjects/forge_macs/app/index.html",
+		"/home/chris/PycharmProjects/forge_macs/app/app.js",
+		"/home/chris/PycharmProjects/forge_macs/ember-cli-build.js",
+		"/home/chris/PycharmProjects/forge_macs/.ember-cli",
+		"/home/chris/PycharmProjects/forge_macs/index.html",
+		"/home/chris/PycharmProjects/forge_macs/static/index.html",
+		"/home/chris/PycharmProjects/forge_macs/.editorconfig",
+		"/home/chris/PycharmProjects/forge_macs/package.json",
+		"/home/chris/PycharmProjects/forge_macs/assets/js/app.js",
+		"/home/chris/PycharmProjects/forge_macs/webpack.config.js",
+		"/home/chris/PycharmProjects/forge_macs/assets/scss/app.scss",
+		"/home/chris/PycharmProjects/forge_macs/assets/js/components/MachineLog.vue",
+		"/home/chris/PycharmProjects/forge_macs/assets/js/App.vue",
+		"/home/chris/PycharmProjects/forge_macs/assets/js/components/Hello.vue",
+		"/home/chris/PycharmProjects/forge_macs/config/index.js",
+		"/home/chris/PycharmProjects/forge_macs/assets/scss/_custom.scss",
+		"/home/chris/PycharmProjects/forge_macs/static/app.js",
+		"/home/chris/PycharmProjects/forge_macs/postcss.config.js",
+		"/home/chris/PycharmProjects/forge_macs/build/webpack.base.conf.js",
+		"/home/chris/PycharmProjects/forge_macs/src/App.vue",
+		"/home/chris/PycharmProjects/forge_macs/.postcssrc.js",
+		"/home/chris/PycharmProjects/forge_macs/src/main.js",
+		"/home/chris/PycharmProjects/forge_macs/src/app.scss",
+		"/home/chris/PycharmProjects/forge_macs/src/app.js",
+		"/home/chris/PycharmProjects/forge_macs/webpack.mix.js",
+		"/home/chris/PycharmProjects/forge_macs/src"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.autopep8":
+	{
+		"height": 0.0
+	},
+	"output.clangautocomplete":
+	{
+		"height": 180.0
+	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Anaconda Python Builder",
+	"project": "macs-frontend.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
